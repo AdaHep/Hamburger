@@ -14,6 +14,7 @@
 .column {flex-direction: column;}
 .padded {padding: .5rem;}
 .padded-2 {padding: 1rem;}
+.pointer {cursor: pointer;}
 
 body {
     margin: 0;
@@ -44,4 +45,8 @@ h1 {
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+main {
+    margin-top: var(--header-height);
 }
