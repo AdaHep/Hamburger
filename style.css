@@ -15,6 +15,9 @@
 .padded {padding: .5rem;}
 .padded-2 {padding: 1rem;}
 .pointer {cursor: pointer;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+
 
 body {
     margin: 0;
@@ -29,7 +32,8 @@ header {
     left: 0;
     top: 0;
     right: 0;
-    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     overflow-y: hidden;
     height: var(--header-height);
     transition: height 400ms;
@@ -45,6 +49,13 @@ h1 {
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 300;
+}
+
+.corner {
+    right: 0.1rem;
+    bottom: 0.1rem;
+    font-size: 0.75rem;
+    text-shadow: 0 0 0.1rem #1C1C1C;
 }
 
 main {
